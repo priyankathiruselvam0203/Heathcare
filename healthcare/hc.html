@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HealthyLife Clinic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>HealthyLife Clinic</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Your Health, Our Priority</h2>
+    <p>Providing quality healthcare services for you and your family.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <div class="service-cards">
+      <div class="card">
+        <h3>General Check-up</h3>
+        <p>Routine health examinations for all ages.</p>
+      </div>
+      <div class="card">
+        <h3>Emergency Care</h3>
+        <p>24/7 emergency response and support.</p>
+      </div>
+      <div class="card">
+        <h3>Pediatrics</h3>
+        <p>Specialized care for infants and children.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p id="formResponse" class="response-message"></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 HealthyLife Clinic. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,102 @@
+/* Reset & basic styling */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: #f9f9f9;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0c7c59;
+    color: white;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .hero {
+    background: #e0f7f4;
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .services {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  .service-cards {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+  
+  .card {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .contact {
+    padding: 2rem;
+    background: #e6f2f0;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-top: 1rem;
+  }
+  
+  input, textarea {
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    padding: 0.75rem;
+    border: none;
+    background-color: #0c7c59;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #09694c;
+  }
+  
+  .response-message {
+    margin-top: 1rem;
+    color: green;
+    font-weight: bold;
+  }
+  
+  footer {
+    background: #0c7c59;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
